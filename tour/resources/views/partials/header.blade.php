@@ -145,6 +145,7 @@
           </li>
         </ul>
       </div>
+       <a style="display: none" id="mobileMenuOpenButton" type="button"><i class="bi bi-list"></i></a>
     </div>
     <hr>
   </header>

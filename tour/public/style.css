@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     font-family: "Poppins", sans-serif;
@@ -6,7 +6,7 @@
     font-style: normal;
 }
 /** Header Style::Start **/
-.header .header__top{
+.header .header__top {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -14,62 +14,62 @@
     align-items: center;
     padding: 20px;
     color: #5c636c;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
-.header .header__top .header__top__left{
+.header .header__top .header__top__left {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap:20px
+    gap: 20px;
 }
-.header .header__top .header__top__right ul{
+.header .header__top .header__top__right ul {
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 10px
+    gap: 10px;
 }
-.header .header__top .header__top__right ul li a{
+.header .header__top .header__top__right ul li a {
     color: #5c636c;
-    text-decoration: none
+    text-decoration: none;
 }
-.header .header__bottom{
+.header .header__bottom {
     width: 100%;
     display: flex;
     flex-direction: row;
     padding: 10px;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
-.header .header__bottom .header__bottom__menu ul{
+.header .header__bottom .header__bottom__menu ul {
     display: flex;
     flex-direction: row;
     align-content: center;
-    gap:20px;
-    list-style: none
+    gap: 20px;
+    list-style: none;
 }
 
-.header .header__bottom .header__bottom__menu ul li a{
+.header .header__bottom .header__bottom__menu ul li a {
     color: #3f536c;
     text-decoration: none;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-bottom: 7px;
-    letter-spacing: .5px
+    letter-spacing: 0.5px;
 }
-.header .header__bottom .header__bottom__menu ul li a:hover{
+.header .header__bottom .header__bottom__menu ul li a:hover {
     color: #f26627;
 }
-.header .header__bottom .header__bottom__menu ul .header__menu{
+.header .header__bottom .header__bottom__menu ul .header__menu {
     position: relative;
 }
-.header__bottom__menu .header__menu .header__menu__dropdown{
+.header__bottom__menu .header__menu .header__menu__dropdown {
     position: absolute;
     left: 0px;
     width: 100% !important;
@@ -81,32 +81,32 @@
     visibility: hidden;
     border-radius: 5px;
     transition: opacity 0.5s ease-in-out;
-    z-index: 10;  
+    z-index: 10;
 }
-.header__bottom__menu .header__menu .header__menu__dropdown ul{
-   display: flex !important;
-   flex-direction: column !important
+.header__bottom__menu .header__menu .header__menu__dropdown ul {
+    display: flex !important;
+    flex-direction: column !important;
 }
-.header__bottom__menu .header__menu .header__menu__dropdown ul li a{
-  color: whitesmoke !important;
-  font-size: 12px !important;
-  opacity: 0 !important;
-  visibility: hidden !important;
-  transition: opacity 1s ease-in-out
-}  
+.header__bottom__menu .header__menu .header__menu__dropdown ul li a {
+    color: whitesmoke !important;
+    font-size: 12px !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: opacity 1s ease-in-out;
+}
 
-.header__bottom__menu .header__menu .header__menu__dropdown ul li a:hover{
-   color: #3f536c !important;
-   font-weight: bolder
-}  
+.header__bottom__menu .header__menu .header__menu__dropdown ul li a:hover {
+    color: #3f536c !important;
+    font-weight: bolder;
+}
 
-.header__menu:hover .header__menu__dropdown{
+.header__menu:hover .header__menu__dropdown {
     opacity: 1;
-    visibility: visible;   
+    visibility: visible;
 }
-.header__menu:hover .header__menu__dropdown ul li a{
+.header__menu:hover .header__menu__dropdown ul li a {
     opacity: 1 !important;
-    visibility: visible !important;   
+    visibility: visible !important;
     z-index: 10;
 }
 /** Header Style::End **/
@@ -120,7 +120,7 @@
     min-height: 300px;
     text-align: center;
     color: white !important;
-    background-image: url('https://img.freepik.com/free-photo/dusk-colorful-dramatic-yellow-sun_1203-5704.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid');
+    background-image: url("https://img.freepik.com/free-photo/dusk-colorful-dramatic-yellow-sun_1203-5704.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
