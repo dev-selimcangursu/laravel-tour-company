@@ -16,6 +16,17 @@
         display: block !important;
         font-size: 25px;
     }
+
+    #hero__wrapper .hero__wrapper__main h4{
+        font-size: 24px !important;
+    }
+    #hero__wrapper .hero__wrapper__main small{
+        font-size: 13px !important;
+    }
+    .hero__wrapper__input__area{
+        display: flex;
+        flex-direction: column !important;
+    }
 }
 
 /* Orta Boy Telefonlar (481px - 768px) */
