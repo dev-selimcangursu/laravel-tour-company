@@ -1,4 +1,20 @@
-<header id="header" class="header">
+<header id="header" style="position: relative" class="header">
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-wrapper">
+          <div class="mobile-menu-header">
+              <img style="width: 100px" src="{{asset('logo.png')}}" alt="">
+              <a href="javascript:void(0);" class="close-menu"><i class="bi bi-x-lg"></i></a>
+          </div>
+          <ul class="mobile-menu">
+              <li><a href="">Anasayfa</a></li>
+              <li><a href="">Yurtiçi Turlar</a></li>
+              <li><a href="">Yurtdışı Turlar</a></li>
+              <li><a href="">Ramazan Bayramı Turları</a></li>
+              <li><a href="">Erken Rezervasyon</a></li>
+              <li><a href="">Hakkımızda</a></li>
+              <li><a href="">İletişim</a></li>
+          </ul>
+      </div>
     <div class="header__top">
       <div class="header__top__left">
         <div class="header__top__left__main">
@@ -145,7 +161,30 @@
           </li>
         </ul>
       </div>
-       <a style="display: none" id="mobileMenuOpenButton" type="button"><i class="bi bi-list"></i></a>
+       <a style="display: none;cursor: pointer;" id="mobileMenuOpenButton" type="button"><i class="bi bi-list"></i></a>
     </div>
     <hr>
   </header>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuWrapper = document.querySelector(".mobile-menu-wrapper");
+        const overlay = document.querySelector(".mobile-menu-overlay");
+        const openMenuButton = document.querySelector("#mobileMenuOpenButton");
+        const closeMenu = document.querySelector(".close-menu");
+
+        // Menü Açma
+        openMenuButton.addEventListener("click", function () {
+            menuWrapper.classList.add("active");
+            overlay.classList.add("active");
+        });
+
+        // Menü Kapatma
+        function closeMenuFunc() {
+            menuWrapper.classList.remove("active");
+            overlay.classList.remove("active");
+        }
+
+        closeMenu.addEventListener("click", closeMenuFunc);
+        overlay.addEventListener("click", closeMenuFunc);
+    });
+</script>
