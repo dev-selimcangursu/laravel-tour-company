@@ -259,3 +259,49 @@
     color: white;
 }
 /** Anasayfa Hero Wrapper Style::End **/
+/** Anasayfa Hero Advart Style::Start **/
+.hero__advert__card {
+    background-color: #f26627;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+.advert__card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.advert__card:hover {
+    transform: translateY(-5px);
+}
+.advert__card img {
+    width: 50px;
+    height: 50px;
+}
+.advert__card__main {
+    display: flex;
+    flex-direction: column;
+}
+.advert__card__main h4 {
+    font-size: 16px;
+    margin: 0;
+    color: whitesmoke;
+}
+.advert__card__main small {
+    font-size: 13px;
+    color: whitesmoke;
+}
+/** Anasayfa Hero Advart Style::End **/
+

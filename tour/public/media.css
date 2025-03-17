@@ -47,6 +47,22 @@
         display: block !important;
         font-size: 25px;
     }
+    .hero__advert__card {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .advert__card {
+        padding: 12px;
+    }
+
+    .advert__card__main h4 {
+        font-size: 14px;
+    }
+
+    .advert__card__main small {
+        font-size: 12px;
+    }
 }
 
 /* Tabletler (769px - 1024px) */
