@@ -1,55 +1,97 @@
 /* Küçük Telefonlar (320px - 480px) */
 @media (max-width: 480px) {
-    .header__top__right{
+    .header__top__right,
+    .header__bottom__menu {
         display: none !important;
     }
-    .header__top__left__main{
+
+    .header__top__left__main {
         font-size: 14px;
     }
-    .header__bottom__menu{
-        display: none;
-    }
-    .header__logo img{
+
+    .header__logo img {
         width: 180px;
     }
-    #mobileMenuOpenButton{
+
+    #mobileMenuOpenButton {
         display: block !important;
         font-size: 25px;
     }
 
-    #hero__wrapper .hero__wrapper__main h4{
+    #hero__wrapper .hero__wrapper__main h4 {
         font-size: 24px !important;
     }
-    #hero__wrapper .hero__wrapper__main small{
+
+    #hero__wrapper .hero__wrapper__main small {
         font-size: 13px !important;
     }
-    .hero__wrapper__input__area{
-        display: flex;
+
+    .hero__wrapper__input__area {
         flex-direction: column !important;
     }
+
+    .popular__holiday__themes {
+        grid-template-columns: 1fr;
+    }
+
+    .popular__holiday__theme__left,
+    .popular__holiday__theme__right {
+        padding: 10px;
+    }
+
+    .popular__holiday__theme__title h4 {
+        font-size: 24px;
+    }
+
+    .popular__holiday__theme__title a {
+        font-size: 14px;
+    }
+
+    .popular__holiday__theme__left__binary {
+        grid-template-columns: 1fr;
+    }
+    .popular__tours__main {
+        grid-template-columns: 1fr;
+    }
+
+    .popular__tours__title h4 {
+        font-size: 24px;
+    }
+    .footer__container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__column {
+        min-width: 100%;
+    }
+        .hero__advert__card {
+        display: none;
+    }
+   
 }
 
 /* Orta Boy Telefonlar (481px - 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
-    .header__top__right{
+    .header__top__right,
+    .header__bottom__menu {
         display: none !important;
     }
-    .header__top__left__main{
+
+    .header__top__left__main {
         font-size: 14px;
     }
-    .header__bottom__menu{
-        display: none;
-    }
-    .header__logo img{
+
+    .header__logo img {
         width: 180px;
     }
-    #mobileMenuOpenButton{
+
+    #mobileMenuOpenButton {
         display: block !important;
         font-size: 25px;
     }
+
     .hero__advert__card {
-        grid-template-columns: 1fr;
-        padding: 15px;
+        display: none;
     }
 
     .advert__card {
@@ -63,34 +105,80 @@
     .advert__card__main small {
         font-size: 12px;
     }
+
+    .popular__holiday__themes {
+        grid-template-columns: 1fr;
+    }
+
+    .popular__holiday__theme__left__binary {
+        grid-template-columns: 1fr;
+    }
+    .popular__tours__main {
+        grid-template-columns: 1fr;
+    }
+
+    .popular__tours__title h4 {
+        font-size: 24px;
+    }
+    .footer__container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__column {
+        min-width: 100%;
+    }
 }
 
 /* Tabletler (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-    .header__top__right{
+    .header__top__right,
+    .header__bottom__menu {
         display: none !important;
     }
-    .header__top__left__main{
+
+    .header__top__left__main {
         font-size: 14px;
     }
-    .header__bottom__menu{
-        display: none;
-    }
-    .header__logo img{
+
+    .header__logo img {
         width: 180px;
     }
-    #mobileMenuOpenButton{
+
+    #mobileMenuOpenButton {
         display: block !important;
         font-size: 25px;
+    }
+
+    .popular__holiday__themes {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer__container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer__column {
+        flex: 1 1 45%;
+        text-align: left;
     }
 }
 
 /* Küçük Dizüstü ve Masaüstü (1025px - 1280px) */
 @media (min-width: 1025px) and (max-width: 1280px) {
-    /* Stil buraya yazılır */
+    .popular__holiday__themes {
+        grid-template-columns: 60% 40%;
+    }
+    .footer__container {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
 }
 
 /* Büyük Ekranlar ve 4K (1281px ve üstü) */
 @media (min-width: 1281px) {
-    /* Stil buraya yazılır */
+    .popular__holiday__themes {
+        grid-template-columns: 60% 40%;
+    }
+    .footer__container {
+        max-width: 1400px;
+    }
 }
