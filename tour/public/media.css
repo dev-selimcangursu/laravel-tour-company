@@ -120,6 +120,14 @@
     .tour__detail__wrapper {
         padding: 10px;
     }
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 100%;
+    }
 }
 
 /* Orta Boy Telefonlar (481px - 768px) */
@@ -232,6 +240,14 @@
     }
     .tour__detail__wrapper {
         padding: 10px;
+    }
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 100%;
     }
 }
 

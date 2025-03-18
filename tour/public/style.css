@@ -1028,3 +1028,63 @@ table th {
 .reservation__detail button:hover {
     background-color: #f26627;
 }
+/** Tour Detail Style::End **/
+/** About Style::Start **/
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-header h1 {
+    font-size: 36px;
+    color: #f26627;
+}
+
+.about-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.about-content {
+    display: flex;
+    gap: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    color: #f26627;
+    margin-top: 20px;
+}
+
+.about-text p,
+.about-text ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.about-text ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+/** About Style::End **/
