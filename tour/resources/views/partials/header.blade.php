@@ -165,7 +165,23 @@
     </div>
     <hr>
   </header>
-
+  <section id="hero__wrapper">
+    <div class="hero__wrapper__main">
+        <h4>Ziyaret Edilecek Bir Sonraki Yeri Bulun</h4>
+        <small>Muhteşem mekanları özel fırsatlarla keşfedin!</small>
+        <div class="hero__wrapper__input__area">
+            <input type="text" placeholder="Nereye Gideceksin?">
+            <select>
+                <option value="">Tur Dönemi Seçin</option>
+                <option value="yaz">Yaz Dönemi</option>
+                <option value="kis">Kış Dönemi</option>
+                <option value="ilkbahar">İlkbahar</option>
+                <option value="sonbahar">Sonbahar</option>
+            </select>
+            <button>Ara</button>
+        </div>
+     </div>
+</section>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
         const menuWrapper = document.querySelector(".mobile-menu-wrapper");

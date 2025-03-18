@@ -653,3 +653,188 @@
     text-decoration: underline;
 }
 /** Footer Style::End **/
+
+/** Tour List Style::Start **/
+.list__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.list__wrapper__top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.list__wrapper__bottom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 20px;
+    gap: 15px;
+}
+.list__wrapper__filter {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.filter-group input,
+.filter-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.filter-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.filter-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.filter-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-filter {
+    background: #f26627;
+    color: white;
+}
+
+.btn-reset {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-filter:hover {
+    background: #f26627;
+}
+
+.btn-reset:hover {
+    background: #a71d2a;
+}
+.list__wrapper__card__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.list__wrapper__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list__wrapper__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.list__wrapper__card__left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.list__wrapper__card__left img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #ddd;
+}
+
+.list__wrapper__card__left__main h5 {
+    font-size: 16px;
+    color: #333;
+}
+
+.list__wrapper__card__left__main small {
+    color: #666;
+    font-size: 13px;
+}
+
+.list__wrapper__card__left__main ul {
+    margin-top: 8px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.list__wrapper__card__left__main ul li {
+    font-size: 13px;
+    color: #777;
+}
+
+.list__wrapper__card__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.list__wrapper__card__right small {
+    color: #d9534f;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.list__wrapper__card__right span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.list__wrapper__card__right span:first-of-type {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #888;
+}
+
+.list__wrapper__card__right button {
+    margin-top: 8px;
+    padding: 8px 15px;
+    border: none;
+    background: #f26627;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.list__wrapper__card__right button:hover {
+    background: #0056b3;
+}
