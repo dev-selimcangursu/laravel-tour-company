@@ -263,7 +263,7 @@
 .hero__advert__card {
     background-color: #f26727;
     width: 100%;
-    max-width: 1100px;
+    max-width: 950px;
     margin: auto;
     padding: 20px;
     display: grid;
@@ -310,6 +310,7 @@
     max-width: 1200px;
     margin: 40px auto;
     overflow: hidden;
+    box-sizing: border-box;
 }
 .popular__holiday__theme__title {
     text-align: center;
@@ -378,12 +379,6 @@
 .popular__holiday__theme__left__binary__left,
 .popular__holiday__theme__left__binary__right {
     flex: 1;
-}
-
-.popular__holiday__theme__right {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
 }
 
 .image-overlay {
@@ -565,13 +560,12 @@
     color: #ff6600 !important;
 }
 /** Blog Style::End **/
-
 /** Footer Style::Start **/
-
 .footer {
     background-color: #222;
     color: #fff;
     padding: 50px 20px;
+    font-family: "Arial", sans-serif;
 }
 
 .footer-container {
@@ -580,9 +574,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 20px;
 }
+
 .footer-column {
-    width: 25%;
+    flex: 1;
+    min-width: 250px;
     padding: 10px;
 }
 
@@ -613,22 +610,24 @@
 .footer-column ul li a:hover {
     color: #f26627;
 }
-
 .social-icons {
     margin-top: 20px;
+    display: flex;
+    gap: 10px;
 }
 
 .social-icons a {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     background-color: #f26627;
     color: #222;
     text-align: center;
-    line-height: 40px;
     border-radius: 50%;
-    margin-right: 10px;
-    transition: background 0.3s ease;
+    font-size: 18px;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .social-icons a:hover {
@@ -641,5 +640,16 @@
     margin-top: 30px;
     padding-top: 15px;
     border-top: 1px solid #444;
+    font-size: 14px;
+}
+
+.footer-bottom .footer-link {
+    color: #f26627;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-bottom .footer-link:hover {
+    text-decoration: underline;
 }
 /** Footer Style::End **/

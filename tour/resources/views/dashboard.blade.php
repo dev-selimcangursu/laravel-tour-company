@@ -1,62 +1,78 @@
 @extends('partials.master')
 @section('main')
+<section id="hero__wrapper">
+    <div class="hero__wrapper__main">
+        <h4>Ziyaret Edilecek Bir Sonraki Yeri Bulun</h4>
+        <small>Muhteşem mekanları özel fırsatlarla keşfedin!</small>
+        <div class="hero__wrapper__input__area">
+            <input type="text" placeholder="Nereye Gideceksin?">
+            <select>
+                <option value="">Tur Dönemi Seçin</option>
+                <option value="yaz">Yaz Dönemi</option>
+                <option value="kis">Kış Dönemi</option>
+                <option value="ilkbahar">İlkbahar</option>
+                <option value="sonbahar">Sonbahar</option>
+            </select>
+            <button>Ara</button>
+        </div>
+     </div>
+</section>
 <section class="hero__advert__card">
     <div class="advert__card">
         <img src="https://cdn-icons-png.freepik.com/256/10913/10913730.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid" alt="">
         <div class="advert__card__main">
-            <h4>Lorem, ipsum.</h4>
-            <small>Lorem ipsum dolor sit Lorem, ipsum dolor... Lorem, ipsum.</small> 
+            <h4>700'den Fazla Varış Noktası !</h4>
+            <small>Uzman ekibimiz bu sitedeki tüm destinasyonları özenle seçti</small> 
         </div>
     </div>
     <div class="advert__card">
         <img src="https://cdn-icons-png.freepik.com/256/14121/14121701.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid" alt="">
         <div class="advert__card__main">
-            <h4>Lorem, ipsum.</h4>
-            <small>Lorem ipsum dolor sit Lorem, ipsum dolor... Lorem, ipsum.</small> 
+            <h4>En İyi Fiyat Garantisi</h4>
+            <small>Sipariş onayından itibaren 48 saat içinde fiyat eşleştirme</small> 
         </div>
     </div>
     <div class="advert__card">
         <img src="https://cdn-icons-png.freepik.com/256/15836/15836890.png?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid" alt="">
         <div class="advert__card__main">
-            <h4>Lorem, ipsum.</h4>
-            <small>Lorem ipsum dolor sit Lorem, ipsum dolor... Lorem, ipsum.</small> 
+            <h4>En üst düzey destek</h4>
+            <small>Seyahatiniz sırasında ve hatta sonrasında size yardımcı olmak için buradayız.</small> 
         </div>
     </div>
 </section>
 <section id="popular__holiday__theme__wrapper">
     <div class="popular__holiday__theme__title">
-        <h4>Lorem, ipsum dolor.</h4>
-        <a href="#">Lorem ipsum dolor sit.</a>
+        <h4>Popüler Yurtdışı Turları</h4>
+        <a href="#">Tüm Yurtdışı Turları</a>
     </div>
     <div class="popular__holiday__themes">
         <div class="popular__holiday__theme__left">
             <div class="popular__holiday__theme__left__big" style="background-image: url('https://img.freepik.com/free-photo/abu-dhabi-seascape-with-skyscrapers_181624-11582.jpg');">
-                <div class="image-overlay">Lorem, ipsum dolor.</div>
+                <div class="image-overlay">Dubai Turları</div>
             </div>
             <div class="popular__holiday__theme__left__binary">
-                <div class="popular__holiday__theme__left__binary__left" style="background-image: url('https://img.freepik.com/free-photo/historical-buildings-morocco_181624-16454.jpg');">
-                    <div class="image-overlay">Lorem, ipsum.</div>
+                <div class="popular__holiday__theme__left__binary__left" style="background-image: url('https://img.freepik.com/free-photo/kotor-boka-kotorska_1385-779.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid');">
+                    <div class="image-overlay">Balkan Turları</div>
                 </div>
-                <div class="popular__holiday__theme__left__binary__right" style="background-image: url('https://img.freepik.com/free-photo/this-shot-swfc-2nd-tallest-building-shanghai_181624-332.jpg');">
-                    <div class="image-overlay">Lorem, ipsum dolor.</div>
+                <div class="popular__holiday__theme__left__binary__right" style="background-image: url('https://img.freepik.com/free-photo/white-yacht-pier-near-town-daytime_422131-68.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid');">
+                    <div class="image-overlay">İtalya Turları</div>
                 </div>
             </div>
         </div>
         <div class="popular__holiday__theme__right">
-            <div class="popular__holiday__theme__right__top" style="background-image: url('https://img.freepik.com/free-photo/road-downtown-financial-travel-street_1127-2812.jpg');">
-                <div class="image-overlay">Lorem, ipsum dolor.</div>
+            <div class="popular__holiday__theme__right__top" style="background-image: url('https://img.freepik.com/free-photo/young-man-walking-towards-great-sphinx-giza_181624-51674.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid');">
+                <div class="image-overlay">Mısır Turları</div>
             </div>
-            <div class="popular__holiday__theme__right__bottom" style="background-image: url('https://img.freepik.com/free-photo/aerial-view-dubai-city-from-top-tower_268835-1059.jpg');">
-                <div class="image-overlay">Lorem, ipsum.</div>
+            <div class="popular__holiday__theme__right__bottom" style="background-image: url('https://img.freepik.com/free-photo/landmark-pagoda-doi-inthanon-national-park-chiang-mai-thailand_335224-779.jpg?uid=R190373578&ga=GA1.1.655176800.1740923195&semt=ais_hybrid');">
+                <div class="image-overlay">Tayland Turları.</div>
             </div>
         </div>
     </div>
 </section>
-
 <section class="popular__tours__wrapper">
     <div class="popular__tours__title">
-        <h4>Lorem, ipsum.</h4>
-        <a href="#">Lorem, ipsum dolor.</a>
+        <h4>Popüler Yurtiçi Turları.</h4>
+        <a href="#">Tüm Yurtiçi Turları</a>
     </div>
     <div class="popular__tours__main">
         <div class="popular_tour_card">
@@ -136,8 +152,8 @@
 </section>
 <section class="popular__tours__wrapper">
     <div class="popular__tours__title">
-        <h4>Lorem, ipsum.</h4>
-        <a href="#">Lorem, ipsum dolor.</a>
+        <h4>Bizim Tavsiyemiz</h4>
+        <a href="#">Sizin için seçtiğimiz turlara göz atabilirsiniz.</a>
     </div>
     <div class="popular__tours__main">
         <div class="popular_tour_card">

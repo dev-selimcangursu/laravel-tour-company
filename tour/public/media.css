@@ -48,26 +48,34 @@
     }
 
     .popular__holiday__theme__left__binary {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
     }
     .popular__tours__main {
         grid-template-columns: 1fr;
+        padding: 10px !important;
     }
 
     .popular__tours__title h4 {
         font-size: 24px;
     }
-    .footer__container {
+    .footer-container {
+        width: 100%;
         flex-direction: column;
-        text-align: center;
     }
-    .footer__column {
+    .footer-column {
         min-width: 100%;
     }
-        .hero__advert__card {
+    .hero__advert__card {
         display: none;
     }
-   
+    .footer-column {
+        min-width: 100%;
+    }
+
+    .footer-column ul {
+        padding: 0;
+    }
 }
 
 /* Orta Boy Telefonlar (481px - 768px) */
@@ -108,24 +116,30 @@
 
     .popular__holiday__themes {
         grid-template-columns: 1fr;
+        padding: 10px !important;
     }
 
     .popular__holiday__theme__left__binary {
         grid-template-columns: 1fr;
     }
     .popular__tours__main {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr !important;
+        padding: 10px;
     }
-
+    .popular__holiday__theme__right {
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 15px !important;
+    }
     .popular__tours__title h4 {
         font-size: 24px;
     }
-    .footer__container {
-        flex-direction: column;
-        text-align: center;
-    }
-    .footer__column {
+    .footer-column {
         min-width: 100%;
+    }
+
+    .footer-column ul {
+        padding: 0;
     }
 }
 
@@ -152,13 +166,13 @@
     .popular__holiday__themes {
         grid-template-columns: 1fr 1fr;
     }
-    .footer__container {
-        flex-wrap: wrap;
-        justify-content: space-around;
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
     }
-    .footer__column {
-        flex: 1 1 45%;
-        text-align: left;
+
+    .social-icons {
+        justify-content: center;
     }
 }
 
@@ -167,18 +181,11 @@
     .popular__holiday__themes {
         grid-template-columns: 60% 40%;
     }
-    .footer__container {
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
 }
 
 /* Büyük Ekranlar ve 4K (1281px ve üstü) */
 @media (min-width: 1281px) {
     .popular__holiday__themes {
         grid-template-columns: 60% 40%;
-    }
-    .footer__container {
-        max-width: 1400px;
     }
 }

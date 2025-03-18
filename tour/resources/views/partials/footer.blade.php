@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="footer-container">
-        <div class="footer-column">
+        <div class="footer-column about">
             <h3>Şirketimiz</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nulla et turpis feugiat, at egestas ligula posuere.</p>
             <div class="social-icons">
@@ -9,7 +9,7 @@
                 <a href="#"><i class="bi bi-github"></i></a>
             </div>
         </div>
-        <div class="footer-column">
+        <div class="footer-column links">
             <h3>Hızlı Erişim</h3>
             <ul>
                 <li><a href="#">Ana Sayfa</a></li>
@@ -21,7 +21,7 @@
                 <li><a href="#">İletişim</a></li>
             </ul>
         </div>
-        <div class="footer-column">
+        <div class="footer-column support">
             <h3>Destek</h3>
             <ul>
                 <li><a href="#">SSS</a></li>
@@ -32,7 +32,7 @@
                 <li><a href="#">İade Politikası</a></li>
             </ul>
         </div>
-        <div class="footer-column">
+        <div class="footer-column contact">
             <h3>İletişim</h3>
             <ul>
                 <li><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</li>
@@ -42,6 +42,6 @@
         </div>
     </div>
     <div class="footer-bottom">
-        © 2025 Tüm Hakları Saklıdır | <a href="#" style="color: #f26627; text-decoration: none;">Selimcan Gürsu</a>
+        © 2025 Tüm Hakları Saklıdır | <a href="#" class="footer-link">Selimcan Gürsu</a>
     </div>
 </footer>
