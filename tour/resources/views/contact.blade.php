@@ -32,9 +32,4 @@
             width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 </div>
-
-<style>
-
-</style>
-
 @endsection

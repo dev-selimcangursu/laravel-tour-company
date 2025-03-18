@@ -25,7 +25,6 @@
             <h3>Destek</h3>
             <ul>
                 <li><a href="#">SSS</a></li>
-                <li><a href="#">Kariyer</a></li>
                 <li><a href="#">İş Birliği</a></li>
                 <li><a href="#">Gizlilik Politikası</a></li>
                 <li><a href="#">Kullanım Şartları</a></li>
