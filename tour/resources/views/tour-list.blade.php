@@ -26,7 +26,6 @@
                 <label for="date">Tarih Seç</label>
                 <input type="date" id="date">
             </div>
-
             <div class="filter-actions">
                 <button class="btn-filter">Filtrele</button>
                 <button class="btn-reset">Sıfırla</button>

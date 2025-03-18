@@ -838,3 +838,193 @@
 .list__wrapper__card__right button:hover {
     background: #0056b3;
 }
+/** Tour Detail Style::Start **/
+
+.tour__detail__wrapper {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.tour__detail__left__area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tour__summary_details h3 {
+    font-size: 30px;
+    color: #f26627;
+    margin-bottom: 15px;
+}
+.tour__summary__detail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.tour__summary__detail__info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 12px;
+    background: #f8f8f8;
+    border-radius: 8px;
+}
+.tour__summary__detail__info i {
+    font-size: 22px;
+    color: #f26627;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+table th,
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+table th {
+    color: black;
+    text-align: left;
+}
+.tour__detail__right__area {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid #6666665d;
+    height: 550px;
+    width: 100%;
+}
+
+.tour__detail__right__search {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tour__detail__right__search select,
+.tour__detail__right__search button {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.tour__detail__right__search select:focus,
+.tour__detail__right__search button:focus {
+    border-color: #f26627;
+}
+
+.tour__detail__right__search button {
+    background-color: #f26627;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tour__detail__right__search button:hover {
+    background-color: #f26627;
+}
+
+.reservation__detail {
+    margin-top: 30px;
+}
+
+.reservation__date__area {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reservastion__date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.reservastion__date small {
+    color: #777;
+}
+
+.reservation__summary__area {
+    margin-top: 20px;
+}
+
+.reservastion__summary__area h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.reservastion__summary__bottom {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reservastion__summary__bottom p {
+    color: #777;
+    font-size: 14px;
+}
+
+.reservastion__summary__bottom span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.reservastion__summary__price {
+    margin-top: 25px;
+}
+
+.reservastion__summary__price__item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.reservastion__summary__price__item p {
+    color: #777;
+}
+
+.reservastion__summary__price__item p:last-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.reservastion__summary__price div {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reservastion__summary__price div p {
+    color: #333;
+}
+
+.reservation__detail button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f26627;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reservation__detail button:hover {
+    background-color: #f26627;
+}

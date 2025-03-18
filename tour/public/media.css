@@ -90,15 +90,36 @@
     .list__wrapper__card__right {
         align-items: center;
     }
-    .list__wrapper__bottom{
+    .list__wrapper__bottom {
         display: flex !important;
         flex-direction: column !important;
     }
-  
-    .list__wrapper__card__list{
+
+    .list__wrapper__card__list {
         padding: 0;
     }
-
+    .tour__detail__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .tour__summary__detail {
+        display: flex;
+        flex-direction: column;
+    }
+    .tour__detail__right__area {
+        padding: 0px !important;
+        width: 100% !important;
+        height: auto;
+    }
+    .tour__detail__right__search {
+        padding: 10px;
+    }
+    .reservation__detail {
+        padding: 10px;
+    }
+    .tour__detail__wrapper {
+        padding: 10px;
+    }
 }
 
 /* Orta Boy Telefonlar (481px - 768px) */
@@ -164,11 +185,11 @@
     .footer-column ul {
         padding: 0;
     }
-    .list__wrapper__bottom{
+    .list__wrapper__bottom {
         display: flex !important;
         flex-direction: column !important;
     }
-  
+
     .list__wrapper__card {
         flex-direction: column;
         text-align: center;
@@ -183,8 +204,34 @@
     .list__wrapper__card__right {
         align-items: center;
     }
-    .list__wrapper__card__list{
+    .list__wrapper__card__list {
         padding: 0;
+    }
+    .tour__summary__detail {
+        grid-template-columns: 1fr;
+    }
+    .tour__detail__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .tour__summary__detail {
+        display: flex;
+        flex-direction: column;
+    }
+    .tour__detail__right__area {
+        padding: 0px !important;
+        width: 100% !important;
+        height: auto;
+        max-width: 100% !important;
+    }
+    .tour__detail__right__search {
+        padding: 10px;
+    }
+    .reservation__detail {
+        padding: 10px;
+    }
+    .tour__detail__wrapper {
+        padding: 10px;
     }
 }
 
@@ -218,6 +265,36 @@
 
     .social-icons {
         justify-content: center;
+    }
+    .tour__detail__wrapper {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .tour__summary__detail {
+        grid-template-columns: 1fr 1fr;
+    }
+    .tour__detail__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .tour__summary__detail {
+        display: flex;
+        flex-direction: column;
+    }
+    .tour__detail__right__area {
+        padding: 0px !important;
+        width: 100% !important;
+        height: auto;
+        max-width: 100% !important;
+    }
+    .tour__detail__right__search {
+        padding: 10px;
+    }
+    .reservation__detail {
+        padding: 10px;
+    }
+    .tour__detail__wrapper {
+        padding: 10px;
     }
 }
 
