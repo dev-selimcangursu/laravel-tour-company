@@ -3,6 +3,7 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PartnershipController;
 use App\Http\Controllers\QuestionsController;
 use App\Http\Controllers\TourDetailController;
@@ -16,3 +17,5 @@ Route::get('/about',[AboutController::class,'index']);
 Route::get('/contact',[ContactController::class,'index']);
 Route::get('/questions',[QuestionsController::class,'index']);
 Route::get('/partnership',[PartnershipController::class,'index']);
+Route::get('/login',[LoginController::class,'index']);
+Route::get('/register',[LoginController::class,'register']);
